@@ -6,7 +6,7 @@ def main():
 
     while True:
         try:
-            userChar = int(input("What is your desired CHAR lenght? "))
+            userChar = int(input("What is your desired CHAR length? "))
             break
         except ValueError:
             print("Please enter a valid CHAR.")
@@ -68,3 +68,5 @@ def randomChar(userChar):
     return temp_char_list
 
 main()
+
+input("Press Enter to exit...")
